@@ -32,7 +32,7 @@ Review the code in `numeric.hpp` and answer the following questions.
     template <typename T> inline double median(T* xs, size_t n)
     ```
     
-    **ANSWER:** As discussed previously, `median()` is composed of sorting the array, then selecting the middle value(s). The avarage time complexity of sorting the array is O(nlog(n)), as it involves comparing O(n) items against the pivot, for each O(logn) recursive calls.
+    **ANSWER:** As discussed previously, `median()` is composed of sorting the array, then selecting the middle value(s). The avarage time complexity of sorting the array is O(nlog(n)), as it involves comparing O(n) items against the pivot, for each O(logn) recursive call.
     
 ## Problem Solving ##
 
